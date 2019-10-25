@@ -1,6 +1,8 @@
 import wget
 import os
 import subprocess
+import pytesseract
+from PIL import Image
 
 grids = ['50']
 ascat_urls = ['https://www.ospo.noaa.gov/data/atmosphere/ascat/MetopA/WINDS/cur_25km/zooms/WMB',
@@ -18,6 +20,7 @@ for index in grids:
             wget.download(to_use)
             newname = index + '_'  + str(filenumber) + '.png'
             oldname = 'WMB' + direction + index + '.png'
+            print(pytesseract.image_to_string(Image.open(oldname)))
             os.system('convert ' + oldname + ' -transparent white ' + newname)
             os.remove(oldname)
             if(filenumber > 0):
