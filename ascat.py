@@ -40,3 +40,6 @@ os.rename("WMBds50.png", "MetopB-Ds-WMBas50.png")
 os.rename("WMBds51.png", "MetopB-Ds-WMBas51.png")
 os.rename("WMBds38.png", "MetopB-Ds-WMBas38.png")
 os.rename("WMBds39.png", "MetopB-Ds-WMBas39.png")
+
+
+wget.download("https://ftp.opc.ncep.noaa.gov/data/ascat_ab/latest_ascat_swath_data.grb2")
