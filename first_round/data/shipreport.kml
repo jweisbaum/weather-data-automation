@@ -1,0 +1,1190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+         <kml xmlns="http://www.opengis.net/kml/2.2"> <Folder><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 14 UTC
+Wind Direction: 320 Deg CW from true N
+Wind Speed: 12.0 kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.91 in</description>
+               <Point> +
+               <coordinates>-122.5,37.0</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 14 UTC
+Wind Direction: 90 Deg CW from true N
+Wind Speed: 12.0 kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.85 in</description>
+               <Point> +
+               <coordinates>-148.9,-17.4</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 13 UTC
+Wind Direction: 10 Deg CW from true N
+Wind Speed: 24.1 kts 
+Wind Gust: - 
+Waveheight: 1.6 ft
+Pressure: 30.01 in</description>
+               <Point> +
+               <coordinates>-123.7,34.8</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 13 UTC
+Wind Direction: 320 Deg CW from true N
+Wind Speed: 8.9 kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.91 in</description>
+               <Point> +
+               <coordinates>-122.6,37.1</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 13 UTC
+Wind Direction: - Deg CW from true N
+Wind Speed: - kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.85 in</description>
+               <Point> +
+               <coordinates>-153.4,-16.7</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 13 UTC
+Wind Direction: 90 Deg CW from true N
+Wind Speed: 12.0 kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.85 in</description>
+               <Point> +
+               <coordinates>-148.7,-17.4</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 12 UTC
+Wind Direction: 50 Deg CW from true N
+Wind Speed: 5.1 kts 
+Wind Gust: - 
+Waveheight: 1.6 ft
+Pressure: 30.13 in</description>
+               <Point> +
+               <coordinates>-132.2,30.6</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 12 UTC
+Wind Direction: 70 Deg CW from true N
+Wind Speed: 14.0 kts 
+Wind Gust: - 
+Waveheight: 3.3 ft
+Pressure: 30.05 in</description>
+               <Point> +
+               <coordinates>-141.7,25.2</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 12 UTC
+Wind Direction: 70 Deg CW from true N
+Wind Speed: 12.0 kts 
+Wind Gust: - 
+Waveheight: 3.3 ft
+Pressure: 29.89 in</description>
+               <Point> +
+               <coordinates>-162.2,14.0</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 12 UTC
+Wind Direction: 320 Deg CW from true N
+Wind Speed: 12.0 kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.93 in</description>
+               <Point> +
+               <coordinates>-122.8,37.2</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 12 UTC
+Wind Direction: 10 Deg CW from true N
+Wind Speed: 21.0 kts 
+Wind Gust: - 
+Waveheight: 6.6 ft
+Pressure: 29.94 in</description>
+               <Point> +
+               <coordinates>-129.3,22.5</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 12 UTC
+Wind Direction: - Deg CW from true N
+Wind Speed: - kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.85 in</description>
+               <Point> +
+               <coordinates>-153.3,-16.7</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 12 UTC
+Wind Direction: 90 Deg CW from true N
+Wind Speed: 12.0 kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.86 in</description>
+               <Point> +
+               <coordinates>-148.6,-17.4</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 12 UTC
+Wind Direction: 70 Deg CW from true N
+Wind Speed: 29.9 kts 
+Wind Gust: - 
+Waveheight: 13.1 ft
+Pressure: 30.33 in</description>
+               <Point> +
+               <coordinates>-140.7,38.3</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 12 UTC
+Wind Direction: 210 Deg CW from true N
+Wind Speed: 32.1 kts 
+Wind Gust: - 
+Waveheight: 11.5 ft
+Pressure: 30.33 in</description>
+               <Point> +
+               <coordinates>-132.7,38.5</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 12 UTC
+Wind Direction: 330 Deg CW from true N
+Wind Speed: 8.0 kts 
+Wind Gust: - 
+Waveheight: 1.6 ft
+Pressure: 29.88 in</description>
+               <Point> +
+               <coordinates>-120.2,34.2</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 12 UTC
+Wind Direction: 130 Deg CW from true N
+Wind Speed: 26.0 kts 
+Wind Gust: - 
+Waveheight: 3.3 ft
+Pressure: 29.99 in</description>
+               <Point> +
+               <coordinates>-153.5,23.9</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 12 UTC
+Wind Direction: 40 Deg CW from true N
+Wind Speed: 9.9 kts 
+Wind Gust: - 
+Waveheight: 3.3 ft
+Pressure: 29.88 in</description>
+               <Point> +
+               <coordinates>-136.3,-8.7</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 11 UTC
+Wind Direction: 120 Deg CW from true N
+Wind Speed: 8.0 kts 
+Wind Gust: - 
+Waveheight: 1.6 ft
+Pressure: 29.94 in</description>
+               <Point> +
+               <coordinates>-145.5,-22.6</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 11 UTC
+Wind Direction: 360 Deg CW from true N
+Wind Speed: 15.9 kts 
+Wind Gust: - 
+Waveheight: 1.6 ft
+Pressure: 30.05 in</description>
+               <Point> +
+               <coordinates>-124.2,34.9</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 11 UTC
+Wind Direction: 360 Deg CW from true N
+Wind Speed: 34.0 kts 
+Wind Gust: - 
+Waveheight: 8.2 ft
+Pressure: 30.01 in</description>
+               <Point> +
+               <coordinates>-125.0,38.8</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 11 UTC
+Wind Direction: 60 Deg CW from true N
+Wind Speed: 15.0 kts 
+Wind Gust: - 
+Waveheight: 3.3 ft
+Pressure: 30.04 in</description>
+               <Point> +
+               <coordinates>-142.0,25.1</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 11 UTC
+Wind Direction: 340 Deg CW from true N
+Wind Speed: 12.0 kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.95 in</description>
+               <Point> +
+               <coordinates>-123.0,37.3</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 11 UTC
+Wind Direction: 10 Deg CW from true N
+Wind Speed: 21.0 kts 
+Wind Gust: - 
+Waveheight: 6.6 ft
+Pressure: 29.94 in</description>
+               <Point> +
+               <coordinates>-129.1,22.4</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 11 UTC
+Wind Direction: - Deg CW from true N
+Wind Speed: - kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.87 in</description>
+               <Point> +
+               <coordinates>-153.2,-16.7</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 11 UTC
+Wind Direction: 100 Deg CW from true N
+Wind Speed: 11.1 kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.88 in</description>
+               <Point> +
+               <coordinates>-148.4,-17.4</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 10 UTC
+Wind Direction: 190 Deg CW from true N
+Wind Speed: 22.0 kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.93 in</description>
+               <Point> +
+               <coordinates>-160.7,33.1</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 10 UTC
+Wind Direction: 320 Deg CW from true N
+Wind Speed: 18.1 kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.97 in</description>
+               <Point> +
+               <coordinates>-123.2,37.5</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 10 UTC
+Wind Direction: 70 Deg CW from true N
+Wind Speed: 14.0 kts 
+Wind Gust: - 
+Waveheight: 3.3 ft
+Pressure: 30.06 in</description>
+               <Point> +
+               <coordinates>-142.3,25.0</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 10 UTC
+Wind Direction: 350 Deg CW from true N
+Wind Speed: 28.0 kts 
+Wind Gust: - 
+Waveheight: 8.2 ft
+Pressure: 30.01 in</description>
+               <Point> +
+               <coordinates>-124.8,38.6</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 10 UTC
+Wind Direction: 10 Deg CW from true N
+Wind Speed: 21.0 kts 
+Wind Gust: - 
+Waveheight: 6.6 ft
+Pressure: 29.97 in</description>
+               <Point> +
+               <coordinates>-128.9,22.3</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 10 UTC
+Wind Direction: 100 Deg CW from true N
+Wind Speed: 12.0 kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.90 in</description>
+               <Point> +
+               <coordinates>-148.2,-17.4</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 10 UTC
+Wind Direction: - Deg CW from true N
+Wind Speed: - kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.89 in</description>
+               <Point> +
+               <coordinates>-153.2,-16.7</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 10 UTC
+Wind Direction: - Deg CW from true N
+Wind Speed: - kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.77 in</description>
+               <Point> +
+               <coordinates>-164.9,34.6</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 09 UTC
+Wind Direction: 360 Deg CW from true N
+Wind Speed: 15.0 kts 
+Wind Gust: - 
+Waveheight: 1.6 ft
+Pressure: 30.05 in</description>
+               <Point> +
+               <coordinates>-124.6,35.0</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 09 UTC
+Wind Direction: 350 Deg CW from true N
+Wind Speed: 28.0 kts 
+Wind Gust: - 
+Waveheight: 8.2 ft
+Pressure: 30.02 in</description>
+               <Point> +
+               <coordinates>-124.7,38.4</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 09 UTC
+Wind Direction: 320 Deg CW from true N
+Wind Speed: 18.1 kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.99 in</description>
+               <Point> +
+               <coordinates>-123.3,37.6</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 09 UTC
+Wind Direction: 10 Deg CW from true N
+Wind Speed: 21.0 kts 
+Wind Gust: - 
+Waveheight: 6.6 ft
+Pressure: 30.00 in</description>
+               <Point> +
+               <coordinates>-128.7,22.3</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 09 UTC
+Wind Direction: - Deg CW from true N
+Wind Speed: - kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.91 in</description>
+               <Point> +
+               <coordinates>-153.1,-16.7</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 09 UTC
+Wind Direction: 110 Deg CW from true N
+Wind Speed: 11.1 kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.92 in</description>
+               <Point> +
+               <coordinates>-148.1,-17.4</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 09 UTC
+Wind Direction: - Deg CW from true N
+Wind Speed: - kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.81 in</description>
+               <Point> +
+               <coordinates>-164.7,34.6</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 08 UTC
+Wind Direction: 100 Deg CW from true N
+Wind Speed: 25.1 kts 
+Wind Gust: - 
+Waveheight: 3.3 ft
+Pressure: 29.81 in</description>
+               <Point> +
+               <coordinates>-164.9,-0.5</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 08 UTC
+Wind Direction: 350 Deg CW from true N
+Wind Speed: 28.0 kts 
+Wind Gust: - 
+Waveheight: 8.2 ft
+Pressure: 30.01 in</description>
+               <Point> +
+               <coordinates>-124.6,38.2</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 08 UTC
+Wind Direction: 300 Deg CW from true N
+Wind Speed: 17.1 kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 30.00 in</description>
+               <Point> +
+               <coordinates>-123.4,37.8</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 08 UTC
+Wind Direction: 360 Deg CW from true N
+Wind Speed: 17.1 kts 
+Wind Gust: - 
+Waveheight: 6.6 ft
+Pressure: 29.99 in</description>
+               <Point> +
+               <coordinates>-128.5,22.2</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 08 UTC
+Wind Direction: 110 Deg CW from true N
+Wind Speed: 13.0 kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.93 in</description>
+               <Point> +
+               <coordinates>-147.9,-17.4</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 08 UTC
+Wind Direction: - Deg CW from true N
+Wind Speed: - kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.92 in</description>
+               <Point> +
+               <coordinates>-153.0,-16.6</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 08 UTC
+Wind Direction: - Deg CW from true N
+Wind Speed: - kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.81 in</description>
+               <Point> +
+               <coordinates>-164.5,34.6</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 07 UTC
+Wind Direction: 150 Deg CW from true N
+Wind Speed: 11.1 kts 
+Wind Gust: - 
+Waveheight: 6.6 ft
+Pressure: 29.99 in</description>
+               <Point> +
+               <coordinates>-144.4,-22.1</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 07 UTC
+Wind Direction: 10 Deg CW from true N
+Wind Speed: 15.9 kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 30.09 in</description>
+               <Point> +
+               <coordinates>-125.2,35.1</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 07 UTC
+Wind Direction: 100 Deg CW from true N
+Wind Speed: 18.1 kts 
+Wind Gust: - 
+Waveheight: 6.6 ft
+Pressure: 30.00 in</description>
+               <Point> +
+               <coordinates>-155.4,22.1</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 07 UTC
+Wind Direction: 90 Deg CW from true N
+Wind Speed: 21.0 kts 
+Wind Gust: - 
+Waveheight: 3.3 ft
+Pressure: 29.81 in</description>
+               <Point> +
+               <coordinates>-164.8,-0.2</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 07 UTC
+Wind Direction: 350 Deg CW from true N
+Wind Speed: 28.0 kts 
+Wind Gust: - 
+Waveheight: 8.2 ft
+Pressure: 30.01 in</description>
+               <Point> +
+               <coordinates>-124.5,38.0</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 07 UTC
+Wind Direction: 310 Deg CW from true N
+Wind Speed: 15.0 kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 30.01 in</description>
+               <Point> +
+               <coordinates>-123.4,37.8</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 07 UTC
+Wind Direction: 10 Deg CW from true N
+Wind Speed: 20.0 kts 
+Wind Gust: - 
+Waveheight: 6.6 ft
+Pressure: 30.00 in</description>
+               <Point> +
+               <coordinates>-128.2,22.1</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 07 UTC
+Wind Direction: 110 Deg CW from true N
+Wind Speed: 13.0 kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.93 in</description>
+               <Point> +
+               <coordinates>-147.7,-17.4</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 07 UTC
+Wind Direction: - Deg CW from true N
+Wind Speed: - kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.93 in</description>
+               <Point> +
+               <coordinates>-152.9,-16.6</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 07 UTC
+Wind Direction: - Deg CW from true N
+Wind Speed: - kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.83 in</description>
+               <Point> +
+               <coordinates>-164.2,34.6</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 06 UTC
+Wind Direction: 100 Deg CW from true N
+Wind Speed: 26.0 kts 
+Wind Gust: - 
+Waveheight: 3.3 ft
+Pressure: 29.77 in</description>
+               <Point> +
+               <coordinates>-164.7,0.0</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 06 UTC
+Wind Direction: 70 Deg CW from true N
+Wind Speed: 15.9 kts 
+Wind Gust: - 
+Waveheight: 1.6 ft
+Pressure: 30.21 in</description>
+               <Point> +
+               <coordinates>-141.9,27.7</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 06 UTC
+Wind Direction: 90 Deg CW from true N
+Wind Speed: 25.1 kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 30.02 in</description>
+               <Point> +
+               <coordinates>-155.4,22.6</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 06 UTC
+Wind Direction: 70 Deg CW from true N
+Wind Speed: 14.0 kts 
+Wind Gust: - 
+Waveheight: 3.3 ft
+Pressure: 29.88 in</description>
+               <Point> +
+               <coordinates>-162.9,13.4</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 06 UTC
+Wind Direction: 320 Deg CW from true N
+Wind Speed: 15.0 kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 30.01 in</description>
+               <Point> +
+               <coordinates>-123.4,37.8</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 06 UTC
+Wind Direction: 60 Deg CW from true N
+Wind Speed: 8.0 kts 
+Wind Gust: - 
+Waveheight: 1.6 ft
+Pressure: 30.14 in</description>
+               <Point> +
+               <coordinates>-140.5,28.1</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 06 UTC
+Wind Direction: 70 Deg CW from true N
+Wind Speed: 15.9 kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 30.23 in</description>
+               <Point> +
+               <coordinates>-133.8,38.8</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 06 UTC
+Wind Direction: 10 Deg CW from true N
+Wind Speed: 20.0 kts 
+Wind Gust: - 
+Waveheight: 6.6 ft
+Pressure: 30.02 in</description>
+               <Point> +
+               <coordinates>-128.0,22.0</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 06 UTC
+Wind Direction: 130 Deg CW from true N
+Wind Speed: 12.0 kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.92 in</description>
+               <Point> +
+               <coordinates>-147.6,-17.4</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 06 UTC
+Wind Direction: - Deg CW from true N
+Wind Speed: - kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.91 in</description>
+               <Point> +
+               <coordinates>-152.9,-16.6</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 06 UTC
+Wind Direction: 10 Deg CW from true N
+Wind Speed: 5.1 kts 
+Wind Gust: - 
+Waveheight: 6.6 ft
+Pressure: 29.89 in</description>
+               <Point> +
+               <coordinates>-156.9,-20.3</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 06 UTC
+Wind Direction: 90 Deg CW from true N
+Wind Speed: 27.0 kts 
+Wind Gust: - 
+Waveheight: 6.6 ft
+Pressure: 30.42 in</description>
+               <Point> +
+               <coordinates>-142.5,39.1</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 06 UTC
+Wind Direction: 70 Deg CW from true N
+Wind Speed: 13.6 kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 30.12 in</description>
+               <Point> +
+               <coordinates>-144.5,29.2</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 06 UTC
+Wind Direction: - Deg CW from true N
+Wind Speed: - kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.85 in</description>
+               <Point> +
+               <coordinates>-164.0,34.6</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 06 UTC
+Wind Direction: 60 Deg CW from true N
+Wind Speed: 27.0 kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 30.32 in</description>
+               <Point> +
+               <coordinates>-132.7,38.7</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 06 UTC
+Wind Direction: 10 Deg CW from true N
+Wind Speed: 11.1 kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 30.09 in</description>
+               <Point> +
+               <coordinates>-125.4,23.5</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 06 UTC
+Wind Direction: 50 Deg CW from true N
+Wind Speed: 20.0 kts 
+Wind Gust: - 
+Waveheight: 6.6 ft
+Pressure: 29.83 in</description>
+               <Point> +
+               <coordinates>-136.9,12.9</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 06 UTC
+Wind Direction: 30 Deg CW from true N
+Wind Speed: 9.9 kts 
+Wind Gust: - 
+Waveheight: 3.3 ft
+Pressure: 29.91 in</description>
+               <Point> +
+               <coordinates>-134.8,-9.3</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 05 UTC
+Wind Direction: - Deg CW from true N
+Wind Speed: - kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 30.09 in</description>
+               <Point> +
+               <coordinates>-125.6,35.2</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 05 UTC
+Wind Direction: 330 Deg CW from true N
+Wind Speed: 15.9 kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 30.01 in</description>
+               <Point> +
+               <coordinates>-123.4,37.8</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 05 UTC
+Wind Direction: 10 Deg CW from true N
+Wind Speed: 19.0 kts 
+Wind Gust: - 
+Waveheight: 6.6 ft
+Pressure: 30.00 in</description>
+               <Point> +
+               <coordinates>-127.8,22.0</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 05 UTC
+Wind Direction: 130 Deg CW from true N
+Wind Speed: 11.1 kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.91 in</description>
+               <Point> +
+               <coordinates>-147.4,-17.4</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 05 UTC
+Wind Direction: - Deg CW from true N
+Wind Speed: - kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.90 in</description>
+               <Point> +
+               <coordinates>-152.8,-16.6</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 05 UTC
+Wind Direction: - Deg CW from true N
+Wind Speed: - kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.85 in</description>
+               <Point> +
+               <coordinates>-163.7,34.6</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 04 UTC
+Wind Direction: 10 Deg CW from true N
+Wind Speed: 12.0 kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 30.09 in</description>
+               <Point> +
+               <coordinates>-125.9,35.3</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 04 UTC
+Wind Direction: 90 Deg CW from true N
+Wind Speed: 32.1 kts 
+Wind Gust: - 
+Waveheight: 3.3 ft
+Pressure: 29.75 in</description>
+               <Point> +
+               <coordinates>-164.4,0.5</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 04 UTC
+Wind Direction: 340 Deg CW from true N
+Wind Speed: 19.0 kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 30.01 in</description>
+               <Point> +
+               <coordinates>-123.4,37.8</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 04 UTC
+Wind Direction: 90 Deg CW from true N
+Wind Speed: 15.0 kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.88 in</description>
+               <Point> +
+               <coordinates>-156.7,21.3</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 04 UTC
+Wind Direction: 360 Deg CW from true N
+Wind Speed: 21.0 kts 
+Wind Gust: - 
+Waveheight: 9.8 ft
+Pressure: 30.08 in</description>
+               <Point> +
+               <coordinates>-127.6,21.9</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 04 UTC
+Wind Direction: 320 Deg CW from true N
+Wind Speed: 17.1 kts 
+Wind Gust: - 
+Waveheight: 1.6 ft
+Pressure: 30.03 in</description>
+               <Point> +
+               <coordinates>-118.1,33.3</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 04 UTC
+Wind Direction: - Deg CW from true N
+Wind Speed: - kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.88 in</description>
+               <Point> +
+               <coordinates>-152.7,-16.6</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 04 UTC
+Wind Direction: 130 Deg CW from true N
+Wind Speed: 12.0 kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.90 in</description>
+               <Point> +
+               <coordinates>-147.2,-17.4</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 04 UTC
+Wind Direction: - Deg CW from true N
+Wind Speed: - kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.86 in</description>
+               <Point> +
+               <coordinates>-163.5,34.7</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 03 UTC
+Wind Direction: 120 Deg CW from true N
+Wind Speed: 4.1 kts 
+Wind Gust: - 
+Waveheight: 0.0 ft
+Pressure: 29.93 in</description>
+               <Point> +
+               <coordinates>-143.3,-21.7</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 03 UTC
+Wind Direction: 30 Deg CW from true N
+Wind Speed: 14.0 kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 30.09 in</description>
+               <Point> +
+               <coordinates>-122.2,35.4</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 03 UTC
+Wind Direction: 80 Deg CW from true N
+Wind Speed: 15.9 kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.86 in</description>
+               <Point> +
+               <coordinates>-156.9,21.3</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 03 UTC
+Wind Direction: 330 Deg CW from true N
+Wind Speed: 15.9 kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 30.01 in</description>
+               <Point> +
+               <coordinates>-123.4,37.8</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 03 UTC
+Wind Direction: 20 Deg CW from true N
+Wind Speed: 25.1 kts 
+Wind Gust: - 
+Waveheight: 9.8 ft
+Pressure: 30.05 in</description>
+               <Point> +
+               <coordinates>-127.4,21.8</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 03 UTC
+Wind Direction: 130 Deg CW from true N
+Wind Speed: 11.1 kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.87 in</description>
+               <Point> +
+               <coordinates>-147.1,-17.4</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 03 UTC
+Wind Direction: - Deg CW from true N
+Wind Speed: - kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.86 in</description>
+               <Point> +
+               <coordinates>-152.6,-16.6</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 03 UTC
+Wind Direction: 220 Deg CW from true N
+Wind Speed: 24.1 kts 
+Wind Gust: - 
+Waveheight: 9.8 ft
+Pressure: 29.80 in</description>
+               <Point> +
+               <coordinates>-164.5,35.6</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 03 UTC
+Wind Direction: - Deg CW from true N
+Wind Speed: - kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.85 in</description>
+               <Point> +
+               <coordinates>-163.2,34.7</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 02 UTC
+Wind Direction: 40 Deg CW from true N
+Wind Speed: 14.0 kts 
+Wind Gust: - 
+Waveheight: 3.3 ft
+Pressure: 30.08 in</description>
+               <Point> +
+               <coordinates>-126.5,35.6</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 02 UTC
+Wind Direction: 340 Deg CW from true N
+Wind Speed: 15.0 kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 30.02 in</description>
+               <Point> +
+               <coordinates>-123.4,37.8</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 02 UTC
+Wind Direction: 80 Deg CW from true N
+Wind Speed: 15.0 kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.86 in</description>
+               <Point> +
+               <coordinates>-157.0,21.3</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 02 UTC
+Wind Direction: 20 Deg CW from true N
+Wind Speed: 25.1 kts 
+Wind Gust: - 
+Waveheight: 9.8 ft
+Pressure: 30.05 in</description>
+               <Point> +
+               <coordinates>-127.2,21.7</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 02 UTC
+Wind Direction: - Deg CW from true N
+Wind Speed: - kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.85 in</description>
+               <Point> +
+               <coordinates>-152.6,-16.5</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 02 UTC
+Wind Direction: 120 Deg CW from true N
+Wind Speed: 9.9 kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.85 in</description>
+               <Point> +
+               <coordinates>-146.9,-17.4</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 02 UTC
+Wind Direction: - Deg CW from true N
+Wind Speed: - kts 
+Wind Gust: - 
+Waveheight: - ft
+Pressure: 29.86 in</description>
+               <Point> +
+               <coordinates>-163.0,34.7</coordinates>
+               </Point>
+               </Placemark><Placemark>
+               <name>Ship Report</name>
+               <description>Time: 02 UTC
+Wind Direction: 80 Deg CW from true N
+Wind Speed: 15.0 kts 
+Wind Gust: - 
+Waveheight: 4.9 ft
+Pressure: 30.21 in</description>
+               <Point> +
+               <coordinates>-148.8,27.6</coordinates>
+               </Point>
+               </Placemark></Folder></kml>
