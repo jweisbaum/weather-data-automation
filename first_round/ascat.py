@@ -21,7 +21,12 @@ for index in grids:
             wget.download(to_use)
             newname = index + '_'  + str(filenumber) + '.png'
             oldname = 'WMB' + direction + index + '.png'
-            print(pytesseract.image_to_string(Image.open(oldname)))
+            os.system('convert ' + oldname + ' -gravity South -chop 0x34 no_bottom.png')
+            os.system('convert no_bottom.png -gravity North -chop 0x600 just_times.png')
+            os.remove('no_bottom.png')
+            times = pytesseract.image_to_string(Image.open('just_times.png'))
+            print(times)
+            os.remove('just_times.png')
             os.system('convert ' + oldname + ' -transparent white ' + newname)
             os.remove(oldname)
             print(filenumber)
