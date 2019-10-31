@@ -44,7 +44,6 @@ RUN cd /opt \
     && make install \
     && ldconfig /usr/local/lib
 
-RUN pip3 install pytesseract \
-    && pip3 install python3-wget
+RUN pip3 install pytesseract wget
 
 VOLUME weather
