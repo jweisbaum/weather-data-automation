@@ -35,14 +35,13 @@ RUN cp grib2/wgrib2/wgrib2 /usr/local/bin
 RUN cd /opt \
     && wget http://www.imagemagick.org/download/ImageMagick.tar.gz \
     && tar xvzf ImageMagick.tar.gz \
-    && cd ImageMagick-7.0.9-1 \
+    && cd ImageMagick-7.0.9-2 \
     && touch configure \
     && ./configure \
     && make \
     && make install \
-    && ldconfig /usr/local/lib \
-    && make check
+    && ldconfig /usr/local/lib
+
 
 VOLUME weather
-
 
