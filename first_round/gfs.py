@@ -1,3 +1,5 @@
+# Updated at 0, 6, 12, 18 zulu. 
+
 import wget
 
 # see https://nomads.ncep.noaa.gov/ for more.

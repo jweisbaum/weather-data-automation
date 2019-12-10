@@ -1,3 +1,4 @@
+# Updated hourly to 18 hours out
 import wget
 import os
 import shutil
