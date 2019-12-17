@@ -47,27 +47,16 @@ RUN cd /opt \
 RUN pip3 install pytesseract \
     && pip3 install python3-wget
 
-RUN wget https://github.com/obfuscurity/synthesize/archive/master.zip \
-    && unzip master.zip \
-    && cd synthesize-master \
-    && sudo ./install
+#RUN wget https://github.com/obfuscurity/synthesize/archive/master.zip \
+#    && unzip master.zip \
+#    && cd synthesize-master \
+#    && sudo ./install
+
+RUN apt-get update && apt-get install -y --no-install-recommends apt-utils
 
 RUN apt-get update && apt-get install -y cron
 
-RUN apk --no-cache add \
-        build-base \
-        ca-certificates \
-        git \
-        jasper-dev \
-    linux-headers \
-    m4 \
-        wget \
-        zlib-dev
-
-RUN apk --no-cache add \
-    --repository http://dl-cdn.alpinelinux.org/alpine/edge/testing \
-    proj4-dev
-
+RUN  apt-get install m4 -y
 # HDF5 Installation
 RUN wget https://www.hdfgroup.org/package/bzip2/?wpdmdl=4300 \
         && mv "index.html?wpdmdl=4300" hdf5-1.10.1.tar.bz2 \
@@ -91,26 +80,16 @@ RUN wget https://github.com/Unidata/netcdf-c/archive/v4.4.1.1.tar.gz \
         && rm -rf netcdf-c-4.4.1.1 \
         && rm -rf v4.4.1.1.tar.gz
 
-# GDAL Installation
-RUN git clone https://github.com/OSGeo/gdal.git /gdalgit \
-        && cd /gdalgit/gdal \
-        && ./configure --prefix=/usr \
-        && make -j4 \
-        && make install \
-    && cd / \
-    && rm -rf gdalgit
+RUN apt-get install git -y
 
-ADD ./install_degrib.sh /sbin
+RUN apt-get install cdo -y
 
-RUN apt-get update && \
-    apt-get install curl -y && \
-    apt-get install build-essential -y && \
-    /sbin/install_degrib.sh && \
-    apt-get remove build-essential -y && \
-    apt-get remove curl -y && \
-    apt-get autoremove -y && \
-    rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
-
+RUN apt-get install software-properties-common -y
+# GDAL, PANDAS, https://github.com/sacridini/Awesome-Geospatial#python
+RUN add-apt-repository ppa:ubuntugis/ppa \
+    && apt-get update \
+    && apt-get install gdal-bin -y \
+    && apt-get install libgdal-dev -y
 
 WORKDIR /data
 CMD /bin/sh

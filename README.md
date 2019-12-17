@@ -2,4 +2,5 @@
 Python scripts to grab useful weather data. 
 
 docker build .
-docker run -it -v /Users/jweisbaum/weather_data_automation/:/mnt/data bbdd709ddd62 bash
+docker images
+docker run -it --name weather --mount type=bind,source=$(pwd),target=/data 01702f91fa34 /bin/bash
