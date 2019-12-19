@@ -109,11 +109,7 @@ RUN pip3 install numpy \
 	&& pip3 install sklearn \
 	&& pip3 install scikit-image \
 	&& pip3 install geopandas \
-	&& pip3 install geos \
-	&& pip3 install iris \
-	&& pip3 install earthpy \
-	&& pip3 install wxmap2 \
-	&& pip3 install pyngl
+	&& pip3 install geos
 	
 WORKDIR /data
 CMD /bin/sh
