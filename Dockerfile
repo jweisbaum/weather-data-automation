@@ -1,10 +1,14 @@
-FROM ubuntu:16.04
+FROM ubuntu:18.04
+
+RUN apt-get update && apt-get install -y --no-install-recommends apt-utils
+RUN apt-get install software-properties-common -y
+RUN add-apt-repository ppa:ubuntugis/ppa
 
 RUN apt-get update \
     && apt-get install tesseract-ocr -y \
-	python3 \
-    	python-setuptools \
-    	python3-pip \
+	python3.8 \
+	python3-pip \
+	python3-setuptools \
 	wget \
 	curl \
     	gfortran \
@@ -16,13 +20,24 @@ RUN apt-get update \
 	libx11-dev \
 	libxext-dev \
 	zlib1g-dev \
-	libpng12-dev \
+	libpng-dev \
 	libjpeg-dev \
 	libfreetype6-dev \
 	libxml2-dev \
     && apt-get clean \
-    && apt-get autoremove \
-    && wget http://www.ftp.cpc.ncep.noaa.gov/wd51we/wgrib2/wgrib2.tgz
+    && apt-get autoremove
+
+RUN rm -f /usr/bin/python && ln -s /usr/bin/python3 /usr/bin/python
+
+RUN pip3 install metpy
+
+RUN pip3 install pytesseract \
+    && pip3 install python3-wget
+    
+
+
+# Install wgrib2
+RUN wget http://www.ftp.cpc.ncep.noaa.gov/wd51we/wgrib2/wgrib2.tgz
 
 ENV CC gcc
 ENV FC gfortran
@@ -34,29 +49,21 @@ RUN tar -xzf wgrib2.tgz \
   && make
 RUN cp grib2/wgrib2/wgrib2 /usr/local/bin
 
+#Install ImageMagick
 RUN cd /opt \
     && wget http://www.imagemagick.org/download/ImageMagick.tar.gz \
     && tar xvzf ImageMagick.tar.gz \
-    && cd ImageMagick-7.0.9-2 \
+    && cd ImageMagick-7.0.9-9 \
     && touch configure \
     && ./configure \
     && make \
     && make install \
     && ldconfig /usr/local/lib
 
-RUN pip3 install pytesseract \
-    && pip3 install python3-wget
-
-#RUN wget https://github.com/obfuscurity/synthesize/archive/master.zip \
-#    && unzip master.zip \
-#    && cd synthesize-master \
-#    && sudo ./install
-
-RUN apt-get update && apt-get install -y --no-install-recommends apt-utils
 
 RUN apt-get update && apt-get install -y cron
-
 RUN  apt-get install m4 -y
+
 # HDF5 Installation
 RUN wget https://www.hdfgroup.org/package/bzip2/?wpdmdl=4300 \
         && mv "index.html?wpdmdl=4300" hdf5-1.10.1.tar.bz2 \
@@ -82,14 +89,31 @@ RUN wget https://github.com/Unidata/netcdf-c/archive/v4.4.1.1.tar.gz \
 
 RUN apt-get install git -y
 
+RUN DEBIAN_FRONTEND=noninteractive apt-get install -y tzdata
+
+RUN ln -fs /usr/share/zoneinfo/America/New_York /etc/localtime
+RUN dpkg-reconfigure --frontend noninteractive tzdata
 RUN apt-get install cdo -y
 
-RUN apt-get install software-properties-common -y
-# GDAL, PANDAS, https://github.com/sacridini/Awesome-Geospatial#python
-RUN add-apt-repository ppa:ubuntugis/ppa \
-    && apt-get update \
-    && apt-get install gdal-bin -y \
+RUN apt-get install gdal-bin -y \
     && apt-get install libgdal-dev -y
 
+ 
+RUN pip3 install numpy \
+	&& pip3 install matplotlib \
+	&& pip3 install rasterio \
+	&& pip3 install h5netcdf \
+	&& pip3 install spicy \
+	&& pip3 install netcdf4 \
+	&& pip3 install shapely \
+	&& pip3 install sklearn \
+	&& pip3 install scikit-image \
+	&& pip3 install geopandas \
+	&& pip3 install geos \
+	&& pip3 install iris \
+	&& pip3 install earthpy \
+	&& pip3 install wxmap2 \
+	&& pip3 install pyngl
+	
 WORKDIR /data
 CMD /bin/sh
