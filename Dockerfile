@@ -35,7 +35,6 @@ RUN pip3 install pytesseract \
     && pip3 install python3-wget
     
 
-
 # Install wgrib2
 RUN wget http://www.ftp.cpc.ncep.noaa.gov/wd51we/wgrib2/wgrib2.tgz
 
@@ -110,6 +109,10 @@ RUN pip3 install numpy \
 	&& pip3 install scikit-image \
 	&& pip3 install geopandas \
 	&& pip3 install geos
-	
+
+RUN apt-get install libeccodes0 \ 
+    && pip3 install cfgrib
+
+
 WORKDIR /data
 CMD /bin/sh
