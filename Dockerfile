@@ -33,35 +33,10 @@ RUN pip3 install metpy
 
 RUN pip3 install pytesseract \
     && pip3 install python3-wget
-    
-
-# Install wgrib2
-RUN wget http://www.ftp.cpc.ncep.noaa.gov/wd51we/wgrib2/wgrib2.tgz
-
-ENV CC gcc
-ENV FC gfortran
-ENV USE_NETCDF3 0
-ENV USE_NETCDF4 0
-
-RUN tar -xzf wgrib2.tgz \
-  && cd grib2 \
-  && make
-RUN cp grib2/wgrib2/wgrib2 /usr/local/bin
-
-#Install ImageMagick
-RUN cd /opt \
-    && wget http://www.imagemagick.org/download/ImageMagick.tar.gz \
-    && tar xvzf ImageMagick.tar.gz \
-    && cd ImageMagick-7.0.9-9 \
-    && touch configure \
-    && ./configure \
-    && make \
-    && make install \
-    && ldconfig /usr/local/lib
-
 
 RUN apt-get update && apt-get install -y cron
-RUN  apt-get install m4 -y
+RUN apt-get install m4 -y
+RUN apt-get install git -y
 
 # HDF5 Installation
 RUN wget https://www.hdfgroup.org/package/bzip2/?wpdmdl=4300 \
@@ -86,7 +61,30 @@ RUN wget https://github.com/Unidata/netcdf-c/archive/v4.4.1.1.tar.gz \
         && rm -rf netcdf-c-4.4.1.1 \
         && rm -rf v4.4.1.1.tar.gz
 
-RUN apt-get install git -y
+
+# Install wgrib2
+RUN wget http://www.ftp.cpc.ncep.noaa.gov/wd51we/wgrib2/wgrib2.tgz
+
+ENV CC gcc
+ENV FC gfortran
+ENV USE_NETCDF3 0
+ENV USE_NETCDF4 1
+
+RUN tar -xzf wgrib2.tgz \
+  && cd grib2 \
+  && make
+RUN cp grib2/wgrib2/wgrib2 /usr/local/bin
+
+#Install ImageMagick
+RUN cd /opt \
+    && wget http://www.imagemagick.org/download/ImageMagick.tar.gz \
+    && tar xvzf ImageMagick.tar.gz \
+    && cd ImageMagick-7.0.9-9 \
+    && touch configure \
+    && ./configure \
+    && make \
+    && make install \
+    && ldconfig /usr/local/lib
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y tzdata
 
@@ -97,7 +95,7 @@ RUN apt-get install cdo -y
 RUN apt-get install gdal-bin -y \
     && apt-get install libgdal-dev -y
 
- 
+
 RUN pip3 install numpy \
 	&& pip3 install matplotlib \
 	&& pip3 install rasterio \
@@ -110,8 +108,45 @@ RUN pip3 install numpy \
 	&& pip3 install geopandas \
 	&& pip3 install geos
 
-RUN apt-get install libeccodes0 \ 
+RUN apt-get install libeccodes0 \
     && pip3 install cfgrib
+
+ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
+ENV PATH /opt/conda/bin:$PATH
+
+RUN apt-get update --fix-missing \
+    && apt-get install -y wget bzip2 ca-certificates libglib2.0-0 libxext6 libsm6 libxrender1 mercurial subversion \
+    && apt-get clean
+
+RUN wget --quiet https://repo.anaconda.com/archive/Anaconda2-2019.10-Linux-x86_64.sh -O ~/anaconda.sh \
+    && /bin/bash ~/anaconda.sh -b -p /opt/conda \
+    && rm ~/anaconda.sh \
+    && ln -s /opt/conda/etc/profile.d/conda.sh /etc/profile.d/conda.sh \
+    && echo ". /opt/conda/etc/profile.d/conda.sh" >> ~/.bashrc \
+    && echo "conda activate base" >> ~/.bashrc \
+    && find /opt/conda/ -follow -type f -name '*.a' -delete \
+    && find /opt/conda/ -follow -type f -name '*.js.map' -delete \
+    && /opt/conda/bin/conda clean -afy
+
+RUN conda install -c conda-forge iris
+
+RUN wget ftp://ftp.cpc.ncep.noaa.gov/wd51we/wgrib/wgrib.tar \
+    && mkdir wgrib1 \
+    && tar -C wgrib1 -xvf wgrib.tar \
+    && rm wgrib.tar \
+    && cd wgrib1 \
+    && make \
+    && cp wgrib /usr/bin \
+    &&  && cd .. \
+    && rm -rf wgrib1
+
+RUN curl https://sats.nws.noaa.gov/~degrib/download/degrib-src.tar.gz | tar zx \
+    && cd degrib/src \
+    && ./config-linux.sh \
+    && make \
+    && cp degrib /usr/bin \
+    && cd ../../ \
+    && rm -rf degrib
 
 
 WORKDIR /data
