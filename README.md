@@ -5,6 +5,18 @@ Run these scripts using [this Docker image.](github.com/jweisbaum/weather-and-gi
 
 These scripts and data sources are meant to help ocean navigators prepare for offshore races.  
 
+# Contents
+## scripts/expedition_to_kml.py
+Finds the last entry of your expedition log for your boat and generates a KML file to view in Google Earth. 
+
+## scripts/get_hrrr_tahiti_start_archive.py
+Downloads the hrrr t00 forecast for daylight and evening hours for May 20th - June 7th, for the years 2017, 2018, and 2019. Parses and saves the wind and pressure data for the region around Los Angeles and deletes everything else. 
+
+## data/ybcodes.csv
+A list of over 1000 YB codes for numerous ocean races, legs and returns. 
+
+# Use at your own risk.
+
 Be advised: these scripts are used at your own risk, and I take no responsibility for any issues arrising from using them to navigate. 
 - There are no formal testing or validation procedures in place.  
 - It is possible that a script:
