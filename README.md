@@ -1,4 +1,4 @@
-# weather_data_automation
+# weather-data-automation
 Python scripts to grab useful weather data.
 
 Run these scripts using [this Docker image.](github.com/jweisbaum/weather-and-gis-docker)  
