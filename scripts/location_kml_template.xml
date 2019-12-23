@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>  
+    <Style id="boatLocationStyle">
+        <IconStyle>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/track.png</href>
+            </Icon>
+            <heading>~HEADING~</heading>
+        </IconStyle>
+    </Style>
+    <Placemark>
+        <styleUrl>#boatLocationStyle</styleUrl>
+        <name>~BOAT~</name>
+        <description>
+            <h3>You are here.</h3>
+            <p>Time UTC: ~TIME~</p>
+            <p>Latitude: ~LATITUDE-STRING~</p>
+            <p>Longitude: ~LONGITUDE-STRING~</p>
+            <h4>*Derived Values*</h4>
+            <p>SOG: ~SOG~</p>
+            <p>COG: ~COG~</p>
+            <p>AWA: ~AWA~</p>
+            <p>AWS: ~AWS~</p>
+            <p>TWA: ~TWA~</p>
+            <p>TWS: ~TWS~</p>
+            <p>TWD: ~TWD~</p>
+        </description>
+        <Point>
+            <coordinates>~LON~,~LAT~</coordinates>
+        </Point>        
+    </Placemark>
+</Document>
+</kml>
