@@ -6,6 +6,9 @@ Run these scripts using [this Docker image.](github.com/jweisbaum/weather-and-gi
 These scripts and data sources are meant to help ocean navigators prepare for offshore races.  
 
 # Contents
+## server.py
+This runs locally on your Windows machine on port 8080 (not on Docker). Submitting a GET request to the server returns a bunch of information about your boat such as COG, SOG, LAT, LON, etc. The information comes from the Expedition DLL so you must be running Expedition. This enables anyone with Expedition to build custom apps accessible over their local wifi. 
+
 ## scripts/expedition_to_kml.py
 Finds the last entry of your expedition log for your boat and generates a KML file to view in Google Earth. 
 
