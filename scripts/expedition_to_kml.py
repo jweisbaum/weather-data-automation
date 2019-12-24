@@ -83,4 +83,5 @@ output_file.close()
 # ToDo: Set camera zoom level so it's centered when you open it.
 # ToDo: Add callsign.
 # ToDo: Read boat stats from a config file.
-
+# ToDo: Make this into an api so you can pull all the data you want. Also put it in a database so that it's more performant. Maybe rewrite in C# for Wsindows.
+# ToDo: Read the string in from a template file. 
