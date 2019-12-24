@@ -3,7 +3,7 @@ from enum import Enum
 import winreg
 import json
 from http.server import HTTPServer, BaseHTTPRequestHandler
-
+from urllib.parse import urlparse, parse_qs
 
 class UserChannel(Enum):
     UTC = 0
@@ -60,13 +60,17 @@ class ChannelRequestHandler(BaseHTTPRequestHandler):
         return results
 
     def do_GET(self):
+        print(parse_qs(urlparse(self.path)[4]))
+        params = parse_qs(urlparse(self.path)[4])
+        boat_id = 0
+        if 'boat_id' in params:
+            boat_id = params['boat_id'][0]
         self.send_response(200)
-        results = json.dumps(self.get_all_values(0))
+        results = json.dumps(self.get_all_values(boat_id))
         self.end_headers()
         self.wfile.write(str.encode(results))
 
 PORT = 8080
-
 httpd = HTTPServer(('localhost', PORT), ChannelRequestHandler)
 httpd.serve_forever()
 
